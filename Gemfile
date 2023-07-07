@@ -29,7 +29,7 @@ gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
-
+gem 'jquery-rails', '~> 4.4'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -41,6 +41,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+gem 'popper_js', '~> 2.11', '>= 2.11.7'
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -76,3 +78,7 @@ end
 group :production do
   gem "pg"
 end
+
+gem "cssbundling-rails", "~> 1.1"
+
+gem "jsbundling-rails", "~> 1.1"
