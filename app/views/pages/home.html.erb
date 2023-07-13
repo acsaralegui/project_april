@@ -1,14 +1,16 @@
+
 <div class="container py-4">
-    
-
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-      <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Alpha Articles</h1>
-        <p class="col-md-8 fs-4">The best blog for everything from travel to investing real articles with indivual opinions. Start your blog today for free dont wait another minute and share your expereinces with Alpha community.  </p>
-          <%= link_to 'Start your Alpha Blog', new_article_path, class: 'btn btn-primary btn-lg' %>
-      </div>
+    <div class="jumbotron">
+      <h1 class="display-4">Alpha Articles</h1>
+      <p class="lead">The best blog for everything from travel to investing real articles with indivual opinions. Start your blog today for free dont wait another minute and share your expereinces with Alpha community.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <%= link_to 'Start your Alpha Blog', new_article_path, class: 'btn btn-success btn-lg' %>
     </div>
+</div> 
 
+
+<div class="container py-4">
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
         <div class="h-100 p-5 text-bg-dark rounded-3">
@@ -25,11 +27,14 @@
         </div>
       </div>
     </div>
+</div>
 
-    <footer class="pt-3 mt-4 text-body-secondary border-top">
-      © 2023
+    <footer id="sticky-footer" class="py-4 bg-dark text-white">
+      <div class="container text-center">
+        <small>Copyright © 2023 <%= link_to "Aaron Saralegui", "https://aaronsaralegui.com", class: "text-white" %></small>
+      </div>
+      
     </footer>
-    
   </div>
 
 
