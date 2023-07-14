@@ -7,12 +7,12 @@ import "bootstrap"
 //= require jquery3
 //= require activestorage
 //= require jquery
+//= require jquery.flexslider-min
 //= require jquery_ujs
 //= require turbolinks
 //= require popper
 //= require bootstrap
 //= require tether
-//= require bootstrap-sprockets
-//= require_tree .
+//= require bootstrap-sprockets.
 
 import * as bootstrap from "bootstrap"
