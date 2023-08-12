@@ -26,7 +26,11 @@
 }
 
 #home-container {
-  margin-top: 25px;
+  margin-top: 50px;
+}
+
+.display-4, .lead, .my-4 {
+  color: white;
 }
 
 .jumbotron {
