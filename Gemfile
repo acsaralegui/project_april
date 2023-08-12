@@ -9,9 +9,6 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# Use sqlite3 as the database for Active Record
-
-
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -35,6 +32,9 @@ gem 'jquery-rails', '~> 4.4'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 gem "bcrypt", "~> 3.1.7"
+gem 'will_paginate', '~> 4.0'
+gem 'sass-rails', '~> 6.0'
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
@@ -43,6 +43,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem 'popper_js', '~> 2.11', '>= 2.11.7'
 gem 'bootstrap', '~> 5.2', '>= 5.2.3'
+gem 'webpacker'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
