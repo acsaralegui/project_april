@@ -43,7 +43,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem 'popper_js', '~> 2.11', '>= 2.11.7'
 gem 'bootstrap', '~> 5.2', '>= 5.2.3'
-gem 'webpacker'
+
 
 # Use Sass to process CSS
 # gem "sassc-rails"
