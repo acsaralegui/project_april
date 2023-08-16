@@ -12,7 +12,9 @@
     "jquery": "^3.7.0",
     "nodemon": "^3.0.1",
     "popper.js": "^1.16.1",
-
+    "postcss": "^8.4.26",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.63.6"
   },
   "scripts": {
     "build:css": "yarn build:css:compile && yarn build:css:prefix",
