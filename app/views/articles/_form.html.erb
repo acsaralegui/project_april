@@ -22,13 +22,15 @@
             { prompt: "Make your selection from the list below (can be empty)"}, { multiple: true, size: 3, class: "custom-select shadow rounded" }) %>
           </div>
         </div>
-
+        <br>
         <div class="form-group row justify-content-center">
-          <%= f.submit class: "btn btn-outline-light btn-lg" %>
+          <div class= "b-3 col-3">
+            <%= f.submit class: "btn btn-outline-light btn-lg" %>
+          </div>
         </div>
       <% end %>
     </div>
-    <div class="mb-3">
+    <div class="b-3 col-3">
       <%= link_to '[ Cancel and return to articles listing ]', articles_path, class: "text-dark" %>
     </div>
   </div>

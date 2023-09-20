@@ -1,7 +1,7 @@
 
 
 .navbar {
-  background-color: black !important;
+  background-color: rgb(42, 36, 36) !important;
 }
 
 .navbar-brand {
@@ -22,7 +22,7 @@
 }
 
 .dropdown-menu {
-  background-color: black;
+  background-color: rgb(42, 36, 36);
 }
 
 .dropdown-item {
