@@ -25,6 +25,10 @@
   background-color: black;
 }
 
+.dropdown-item {
+  color: white !important;
+}
+
 #home-container {
   margin-top: 50px;
 }

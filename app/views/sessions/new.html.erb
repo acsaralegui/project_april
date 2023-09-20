@@ -17,14 +17,16 @@
             <%= f.password_field :password, class: "form-control shadow rounded", placeholder: "Enter your password" %>
           </div>
         </div>
-
+        <br>
         <div class="form-group row justify-content-center">
-          <%= f.submit "Log in", class: "btn btn-outline-light btn-lg" %>
+          <div class="mb-3 col-1">
+            <%= f.submit "Log in", class: "btn btn-outline-light btn-lg" %>
+          </div>
         </div>
       <% end %>
     </div>
-    <div class="mb-3">
-      <%= link_to '[ Cancel and return to articles listing ]', articles_path, class: "text-info" %>
+    <div class="mb-3 col-3">
+      <%= link_to '[ Cancel and return to articles listing ]', articles_path, class: "text-dark" %>
     </div>
   </div>
 </div>
